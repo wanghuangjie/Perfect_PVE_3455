@@ -61,7 +61,9 @@ blacklist i915
 **重点: nano /etc/pve/qemu-server/[vmid].conf** 添加
 
 ```args: -device vfio-pci,host=00:02.0,addr=0x02,x-igd-gms=1,romfile=j3455_hd500.bin```
+
 ```hostpci0: 00:0e,rombar=0```
+
 ```vga: none```
 
 安装启动。

@@ -48,7 +48,7 @@ blacklist i915
 * **echo "options vfio_iommu_type1 allow_unsafe_interrupts=1" > /etc/modprobe.d/iommu_unsafe_interrupts.conf**
 * **echo "options kvm ignore_msrs=1" > /etc/modprobe.d/kvm.conf**
 * **update-initramfs -u**
-* wget https://raw.githubusercontent.com/wanghuangjie/Perfect_PVE_3455/master/j3455_hd500.bin /usr/share/kvm/
+* wget https://raw.githubusercontent.com/wanghuangjie/Perfect_PVE_3455/master/hd500.bin -P /usr/share/kvm/
 
 至此pve宿主完工。
 
